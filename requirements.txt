@@ -1,0 +1,14 @@
+# common 
+numpy==1.19.4
+pyyaml
+rospkg
+rosnumpy
+wind-pypcd
+rich
+# 
+# 
+# PyGObject
+# opencv-python
+
+
+

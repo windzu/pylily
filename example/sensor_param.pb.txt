@@ -1,0 +1,60 @@
+sensor_units {
+  date: "2023-05-18 14:19:02"
+  name: "front_lidar"
+  topic: "/lidar_points/front"
+  type: MultiChanelLidar
+  enable: true
+  tf_config {
+    tf_x: 0.28999999999999998
+    tf_y: -0.02
+    tf_z: 1.51826179
+    tf_roll: -0.0276498497
+    tf_pitch: 0.14255397
+    tf_yaw: -0.050000
+  }
+}
+sensor_units {
+  date: "2023-05-18 14:30:02"
+  name: "left_lidar"
+  topic: "/lidar_points/left"
+  type: MultiChanelLidar
+  enable: true
+  tf_config {
+    tf_x: 0.330
+    tf_y: -0.02
+    tf_z: 1.44546807
+    tf_roll: -0.0858618692
+    tf_pitch: 0.00415373174
+    tf_yaw: -0.0650
+  }
+}
+sensor_units {
+  date: "2023-04-25 15:21:06"
+  name: "right_lidar"
+  topic: "/lidar_points/right"
+  type: MultiChanelLidar
+  enable: true
+  tf_config {
+    tf_x: 0.179999999999999
+    tf_y: -0.02
+    tf_z: 1.43071544
+    tf_roll: 0.0514199659
+    tf_pitch: 0.0114151016
+    tf_yaw: -0.0650
+  }
+}
+sensor_units {
+  date: "2023-04-25 15:21:06"
+  name: "top_lidar"
+  topic: "/lidar_points/rtop"
+  type: MultiChanelLidar
+  enable: true
+  tf_config {
+    tf_x: 0.2865
+    tf_y: 0
+    tf_z: 1.38
+    tf_roll: -0.002
+    tf_pitch: -0.017
+    tf_yaw: 0.017
+  }
+}

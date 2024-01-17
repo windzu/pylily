@@ -1,0 +1,15 @@
+load_way: file # topic or file
+result_config:
+  format: common # common or yczx
+  path: example/common_result.yaml
+
+data:
+  - frame_id: top
+    topic: /lidar_points/top
+    file: example/data/top.pcd
+  - frame_id: front
+    topic: /lidar_points/front
+    file: example/data/front.pcd
+  - frame_id: back
+    topic: /lidar_points/back
+    file: example/data/back.pcd
